@@ -1,0 +1,5 @@
+先进入项目
+后执行
+mvn tomcat:run
+接着执行以下链接
+http://localhost:8080/C/film/film_list.jsp

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+
+<!-- product-->  
+  		<servlet>
+    <servlet-name>add_film</servlet-name>
+    <servlet-class>com.hand.film.add_film</servlet-class>
+ 	 </servlet>
+  	<servlet-mapping>
+    <servlet-name>add_film</servlet-name>
+    <url-pattern>/adprfl</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    <servlet-name>check_film</servlet-name>
+    <servlet-class>com.hand.film.check_film</servlet-class>
+ 	 </servlet>
+  	<servlet-mapping>
+    <servlet-name>check_film</servlet-name>
+    <url-pattern>/chprfl</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    <servlet-name>delete_film</servlet-name>
+    <servlet-class>com.hand.film.delete_film</servlet-class>
+ 	 </servlet>
+  	<servlet-mapping>
+    <servlet-name>delete_film</servlet-name>
+    <url-pattern>/deprfl</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    <servlet-name>edit_film</servlet-name>
+    <servlet-class>com.hand.film.edit_film</servlet-class>
+ 	 </servlet>
+  	<servlet-mapping>
+    <servlet-name>edit_film</servlet-name>
+    <url-pattern>/edprfl</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    <servlet-name>save_add_film</servlet-name>
+    <servlet-class>com.hand.film.save_add_film</servlet-class>
+ 	 </servlet>
+  	<servlet-mapping>
+    <servlet-name>save_add_film</servlet-name>
+    <url-pattern>/saadfl</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+    <servlet-name>save_edit_film</servlet-name>
+    <servlet-class>com.hand.film.save_edit_film</servlet-class>
+ 	 </servlet>
+  	<servlet-mapping>
+    <servlet-name>save_edit_film</servlet-name>
+    <url-pattern>/saedprfl</url-pattern>
+  	</servlet-mapping>
+  	
+ </web-app>
